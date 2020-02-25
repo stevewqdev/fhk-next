@@ -29,3 +29,6 @@
 <p>Right now the project structure its pretty simple, there is a Component folder that contains the layout file (layout.js). This template contains the &lt; ApolloProvider /&gt; wrapper for the whole app to make and accept the graphql queries and it also contains the chakra ui wrapper for the app theme &lt;ThemeProvider /&gt;</p>
 <p>On the pages folder you can create any .js file that will be mapped with the same url name into the browser, example: about.js will be rendered on the url yourproject.com/about.</p>
 <p>Theres a folder inside component's folder called queries where we should put all the components that contains a Graphql querie.&nbsp;</p>
+<h2><strong>Use the theme object into Chakra UI components</strong></h2>
+<p>On the root folder you can find the theme.js file used for the Chakra UI theming, you can add more attributes into the file if its necessary.</p>
+<p>To access the object and pass data to the chakra components from the theme.js file you need to import the object into each page, and after doing that you will be able to access the object using the naming convention that you will find in the file, example: {theme.fontSizes.xl} </p>
