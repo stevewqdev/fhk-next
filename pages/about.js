@@ -3,13 +3,13 @@ import Layout from "../components/layout";
 import React, { Component } from 'react';
 import theme from '../theme';
 
-class HomePage extends Component {
+class AboutPage extends Component {
   render () {
   return (
     <>
       <Layout>
         <Head>
-          <title>Houses For Rent | Find Your Next Rental Home | FirstKey Homes</title>
+          <title>Home Rental Company | About Us | FirstKey Homes</title>
         </Head>
       </Layout>
       <style jsx>{`
@@ -19,4 +19,4 @@ class HomePage extends Component {
 }
 }
 
-export default HomePage
+export default AboutPage
